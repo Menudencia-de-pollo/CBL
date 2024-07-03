@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBL COMMUNITY</title>
+    <style>
+        header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+.hero {
+    background: radial-gradient(orange, red);
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    color: #111111;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #252424;
+}
+footer {
+    background-color: #b69595;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    width: 55%;
+}
+
+.footer-column h3 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.footer-column p {
+    font-size: 1rem;
+}
+
+.footer-icons {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 50px;
+    display: inline-flex;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    color: #772828;
+    font-size: 1.2rem;
+}
+.gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            grid-gap: 10px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-content">
+            <h2>CBL COMMUNITY</h2>
+            <p>Pagina hecha por Estudiantes, para estudiantes</p>
+        </div>
+    </section>
+    <header>
+        <img src="cesar borja Logo.png" alt="Logo de la pagina">
+        <nav>
+            <ul>
+                <li><a href="estudiante.html">Estudiantes</a></li>
+                <li><a href="contacto.html">Contactanos</a></li>
+                <li><a href="ayuda.html">ayuda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="gallery">
+        <img src="cbl 1.jpeg" alt="Image 1">
+        <img src="cbl 2.jpeg" alt="Image 2">
+        <img src="cbl 3.jpg" alt="Image 3">
+        <img src="cbl 4.jpeg" alt="Image 4">
+        <img src="cbl 5.jpg" alt="Image 5">
+        <img src="cbl 6.jpg" alt="Image 6">
+    </section>
+    <footer>
+        <div class="footer-column">
+            <h3>CBL Community</h3>
+            <p> Esta pagina servira para un mejor seguimiento de los alumnos y que los ayude a ser mas responsables en su vida academica.
+                (pagina exclusiva para los miembros de la comunidad educativa).</p>
+        </div>
+        <div class="footer-column">
+            <div class="footer-icons">
+                <div class="icon"><img src="icon_fb.png" height="50" alt="Icono 1"></div>
+                <div class="icon"><img src="icon_wsp.jpg" height="50" alt="Icono 2"></div>
+                <div class="icon"><img src="icon_X.jpeg" height="50" alt="Icono 3"></div>
+                <div class="icon"><img src="icon_ytb.jpg" height="50" alt="Icono 4"></div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
